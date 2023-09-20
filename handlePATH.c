@@ -13,7 +13,7 @@ while (dir != NULL)
 {
 	struct node *new_node = (struct node *) malloc(sizeof(struct node));
 
-	new_node->dir = strdup(dir);
+	new_node->dir = _strdup(dir);
 	new_node->next = NULL;
 	if (head == NULL)
 	{

@@ -33,7 +33,5 @@ char *_getenv(char *name);
 int _strncmp(const char *str1, const char *str2, size_t n);
 int _strlen(char *s);
 char *_strchr(const char *str, int ch);
-
-
-
+char *_strdup(const char *str);
 #endif
