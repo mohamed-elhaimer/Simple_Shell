@@ -33,7 +33,7 @@ void exucuteCommand(char *command, char **argv)
 		if (args[0][0] == '/')
 		{
 			withoutpath(args, argv, intercative);
-		} path = getenv("PATH");
+		} path = _getenv("PATH");
 		if (path)
 		{
 			withpath(path, intercative, args, argv);

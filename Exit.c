@@ -5,13 +5,13 @@
 */
 void myfunc(char *input)
 {
-	if (strcmp(input, "exit") == 0)
+	if (_strcmp(input, "exit") == 0)
 	{
 		printf("Exiting the shell\n");
 		free(input);
 		exit(EXIT_SUCCESS);
 	}
-	if (strcmp(input, "env") == 0)
+	if (_strcmp(input, "env") == 0)
 	{
 		char **env = environ;
 

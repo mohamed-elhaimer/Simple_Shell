@@ -28,6 +28,12 @@ void myfunc(char *input);
 char *get_user_input(int is_interactive);
 void withpath(char *path, int intercative, char **args, char **argv);
 void withoutpath(char **args, char **argv, int intercative);
+int _strcmp(char *s1, char *s2);
+char *_getenv(char *name);
+int _strncmp(const char *str1, const char *str2, size_t n);
+int _strlen(char *s);
+char *_strchr(const char *str, int ch);
+
 
 
 #endif
